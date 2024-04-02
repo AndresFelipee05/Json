@@ -1,0 +1,30 @@
+{
+    "numero-pedido": 23435,
+    "fecha": "2024-04-02",
+    "hora:": "14:00:01",
+    "usuario": {
+        "nombre-usuario": "jl3405",
+        "nombre-completo": "Andrés Felipe Bautista Valencia",
+        "dirccion-envio": {
+            "calle": "Norte",
+            "poblacion": "Villarrobledo",
+            "cp": "13789"
+        }
+
+    },
+    "lista-articulos": [{
+        "codigo": "A34B",
+        "descripcion": "Barra de pan",
+        "precio": 0.75
+    },
+    {
+        "codigo": "A35C",
+        "descripcion": "Botella de aceite",
+        "precio": 10
+    },{
+        "codigo": "A36D",
+        "descripcion": "Bolsa de tomates",
+        "precio": 2.5
+    }]
+
+}
