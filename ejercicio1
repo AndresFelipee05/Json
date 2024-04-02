@@ -1,0 +1,15 @@
+{
+    "nombre": "Pérez López",
+    "nacimiento": {
+        "dia": 10,
+        "mes": "Abril",
+        "anyo": "2000"
+    },
+    "direccion":{
+    "calle": "Caoba, 1",
+    "poblacion": "Madrid",
+    "provincia": "Madrid",
+    "cpostal": "28105"
+    },
+    "varon": true
+}
