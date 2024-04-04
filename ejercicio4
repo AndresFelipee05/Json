@@ -1,0 +1,38 @@
+{
+    "lista-concesionarios": [
+      {
+        "nombre": "Concesionario 1",
+        "direccion": "Calle Valencia",
+        "localidad": "Albacete",
+        "telefonos": ["123456789", "987654321"],
+        "lista-coches": [
+          {
+            "matricula": "34123HWK",
+            "tipo": "turismo",
+            "modelo": "Modelo A",
+            "cilindrada": 2000,
+            "combustible": "Gasolina",
+            "color": "Rojo",
+            "asegurado": true
+          },
+          {
+            "matricula": "456DEF",
+            "tipo": "furgoneta",
+            "modelo": "Modelo B",
+            "cilindrada": 2500,
+            "combustible": "Diesel",
+            "color": "Blanco",
+            "asegurado": false
+          }
+        ]
+      },
+      {
+        "nombre": "Concesionario 2",
+        "direccion": "Avenida Reyes Católicos",
+        "localidad": "Madrid",
+        "telefonos": ["111222333"],
+        "lista-coches": []
+      }
+    ]
+  }
+  
