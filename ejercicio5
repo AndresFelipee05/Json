@@ -1,0 +1,116 @@
+{
+  "Clientes": [
+    {
+      "id": 1,
+      "Nombre": "Juan",
+      "PrimerApellido": "Pérez",
+      "SegundoApellido": "Gómez",
+      "DNI": "12345678A",
+      "Telefonos": ["123456789", "987654321"]
+    },
+    {
+      "id": 2,
+      "Nombre": "María",
+      "PrimerApellido": "González",
+      "SegundoApellido": "López",
+      "DNI": "87654321B",
+      "Telefonos": ["555666777"]
+    }
+  ],
+  "Facturas": [
+    {
+      "idFactura": 1,
+      "idCliente": 1,
+      "Fecha": "2024-04-05",
+      "FormaPago": "Tarjeta",
+      "ImporteTotal": 50.00,
+      "Tipo": "Alquiler",
+      "Detalles": [
+        {
+          "idPelicula": 1,
+          "Titulo": "Pulp Fiction",
+          "Genero": "Drama/Crimen",
+          "Duracion": 154,
+          "Valoracion": 4.5,
+          "FechaDevolucion": "2024-04-12"
+        }
+      ]
+    },
+    {
+      "idFactura": 2,
+      "idCliente": 2,
+      "Fecha": "2024-04-05",
+      "FormaPago": "Efectivo",
+      "ImporteTotal": 20.00,
+      "Tipo": "Compra",
+      "Detalles": [
+        {
+          "idPelicula": 2,
+          "Titulo": "Matrix",
+          "Genero": "Ciencia Ficción",
+          "Duracion": 136,
+          "Valoracion": 4.8
+        }
+      ]
+    }
+  ],
+  "Peliculas": [
+    {
+      "idPelicula": 1,
+      "Titulo": "El aseiso del Zodiaco",
+      "Genero": "Drama/Crimen",
+      "Duracion": 154,
+      "Valoracion": 4.5,
+      "Actores": ["John Travolta", "Brad Pit"],
+      "Imagen": "pulp_fiction.jpg"
+    },
+    {
+      "idPelicula": 2,
+      "Titulo": "Matrix",
+      "Genero": "Ciencia Ficción",
+      "Duracion": 136,
+      "Valoracion": 4.8,
+      "Actores": ["Harvey Specter", "Mike Ross"]
+    }
+  ],
+  "Actores": [
+    {
+      "idActor": 1,
+      "Nombre": "John",
+      "Apellido": "Travolta"
+    },
+    {
+      "idActor": 2,
+      "Nombre": "Uma",
+      "Apellido": "Thurman"
+    },
+    {
+      "idActor": 3,
+      "Nombre": "Keanu",
+      "Apellido": "Reeves"
+    },
+    {
+      "idActor": 4,
+      "Nombre": "Carrie-Anne",
+      "Apellido": "Moss"
+    }
+  ],
+  "DVDs": [
+    {
+      "idDVD": 1,
+      "idPelicula": 2,
+      "TituloDVD": "Matrix",
+      "FechaSalida": "1999-03-31",
+      "Extras": true
+    }
+  ],
+  "CintasDeVideo": [
+    {
+      "idCinta": 1,
+      "idPelicula": 1,
+      "TituloCinta": "Pulp Fiction",
+      "Formato": "VHS",
+      "Rebobinada": false
+    }
+  ]
+}
